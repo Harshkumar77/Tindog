@@ -91,6 +91,7 @@ nav {
 /* press section */
 #press {
   background-color: #fe3c72;
+  margin: 0;
   padding-bottom: 60px;
 }
 #press img {
