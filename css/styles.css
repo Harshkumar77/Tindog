@@ -1,0 +1,153 @@
+body {
+  font-family: "Spartan", sans-serif;
+}
+h1 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 100px;
+}
+
+h2 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+nav {
+  margin-bottom: 5px;
+}
+.dbutton {
+  padding: 3% 1%;
+  margin-top: 20px;
+}
+.brand {
+  font-weight: 900;
+  font-size: 2rem;
+}
+.phone {
+  transform: rotate(20deg);
+  width: 70%;
+  position: relative;
+  bottom: 50px;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+#title {
+  background-color: #fe3c72;
+  color: white;
+  /* position: relative;
+  z-index: -1; */
+  padding-bottom: 0;
+  height: 650px;
+}
+.navbar-nav a {
+  margin: 0 30px;
+  font-size: 1.2rem;
+}
+
+/* features  */
+#features {
+  position: relative;
+  background-color: white;
+  z-index: 1;
+  margin: 0;
+  text-align: center;
+  padding: 10% 7%;
+  height: auto;
+}
+#features div i {
+  color: #ef8172;
+  font-size: 5rem;
+  padding-bottom: 20px;
+}
+#features h3 {
+  font-weight: bolder;
+}
+#features div :hover {
+  color: #ff4c68;
+}
+.feat {
+  margin: auto 0 auto;
+}
+
+/* Testimonail section */
+#testimonials {
+  color: white;
+  background-color: #fe3c72;
+}
+.carousel-inner {
+  padding: 7% 15%;
+}
+
+#testimonials img {
+  width: 20%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+/* press section */
+#press {
+  background-color: #fe3c72;
+  padding-bottom: 60px;
+}
+#press img {
+  margin-bottom: auto;
+  padding: 5px;
+}
+/* price */
+#pricing {
+  text-align: center;
+  margin-top: 50px;
+}
+.price-card {
+  margin-top: 50px;
+  padding: 0;
+}
+
+/* call to action */
+#cta {
+  text-align: center;
+  background-color: #fe3c72;
+  padding: 15% 7%;
+  color: white;
+}
+#cta button {
+  padding: 1.5% 1%;
+  margin: 30px 10px 20px;
+}
+#cta h3 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  padding: 15% 7%;
+}
+#footer i {
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  #title {
+    height: fit-content;
+  }
+  #title .container-fluid {
+    text-align: center;
+  }
+  .phone {
+    transform: rotate(0);
+    position: static;
+    padding-top: 50px;
+  }
+  #features {
+    position: static;
+    height: auto;
+  }
+}
